@@ -1,0 +1,17 @@
+# LASER requirements
+# Please follow installation instructions of LASER
+
+Cython==0.29.10
+jieba==0.39
+numpy==1.15.4
+six==1.12.0
+torch==1.0.1.post2
+transliterate==1.10.2
+
+# FastBPE cannot be installed with pip install fastBPE
+# fastBPE==0.0.0
+
+# Additional requirements
+
+iso639==0.1.4
+yapf==0.27.0
