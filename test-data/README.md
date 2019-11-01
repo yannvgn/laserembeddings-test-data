@@ -16,7 +16,7 @@ laserembeddings_test_data = np.load('laserembeddings-test-data.npz')
 
 laserembeddings_test_data.files
 # Returns the list of available arrays
-# ['langs', 'af_texts', 'am_texts', 'ang_texts', ..., 'zsm_embeddings']
+# ['langs', 'af_sentences', 'am_sentences', 'ang_sentences', ..., 'zsm_embeddings']
 
 laserembeddings_test_data['langs']
 # array(['af', 'am', 'ang', 'ar', 'arq', 'arz', 'ast', 'awa', 'az', 'be',
@@ -32,7 +32,7 @@ laserembeddings_test_data['langs']
 #        'ur', 'uz', 'vi', 'war', 'wuu', 'xh', 'yi', 'yue', 'zsm'],
 #       dtype='<U3')
 
-laserembeddings_test_data['en_texts']
+laserembeddings_test_data['en_sentences']
 # array(['Her English is excellent.', "I don't give a damn about my CV.",
 #        'The teacher is supervising her students.',
 #        ...,
