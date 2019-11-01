@@ -6,9 +6,9 @@ The data contains a corpus of multilingual sentences with their embeddings compu
 
 ## Usage
 
-First install [LASER](https://github.com/facebookresearch/LASER).
+First install [LASER](https://github.com/facebookresearch/LASER). Make sure that [MeCab](https://taku910.github.io/mecab/) is also installed and is configured to support UTF-8.
 
-Then export the path to LASER's installation directory (i.e. where you clone the LASER's repository).
+Then export the path to LASER's installation directory (i.e. where you cloned LASER's repository).
 
 ```
 export LASER=/path/to/laser
